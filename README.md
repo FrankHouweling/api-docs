@@ -14,6 +14,7 @@ The Genkgo API works as follows
 	- command, please see below the specific command per organization part
 	- parameters for the command
 6. The return variable will be an array, object or boolean. Internally, the API works with JSON. The API script encodes to JSON before sending variables and decodes the JSON when receiving the result.
+	- Conform RFC 4627, the returned JSON is encoded in Unicode. The default encoding is UTF-8.
 	
 ## Organization
 
