@@ -16,23 +16,11 @@ The Genkgo API works as follows
 6. The return variable will be an array, object or boolean. Internally, the API works with JSON. The API script encodes to JSON before sending variables and decodes the JSON when receiving the result.
 	- Conform RFC 4627, the returned JSON is encoded in Unicode. The default encoding is UTF-8.
 	
-## Organization
+Admin Application Parts that have an API available:
 
-The organization part supports the following commands.
-
-| Command                           | Parameters                         | Result            |
-| :-------------------------------- |:---------------------------------- | :---------------- |
-| tree                              | undocumented                       | undocumented      |
-| find                              | undocumented                       | undocumented      |
-| query                             | undocumented                       | undocumented      |
-| move                              | undocumented                       | undocumented      |
-| delete                            | undocumented                       | undocumented      |
-| modify                            | undocumented                       | undocumented      |
-| alias                             | undocumented                       | undocumented      |
-| group                             | undocumented                       | undocumented      |
-| objectclass                       | undocumented                       | undocumented      |
-| login                             | undocumented                       | undocumented      |
-| create                            | undocumented                       | undocumented      |
-| search                            | undocumented                       | undocumented      |
-| objectclasses                     | undocumented                       | undocumented      |
-| entry                             | undocumented                       | undocumented      |
+0. Main
+1. [Organization](organization.md)
+2. Website
+3. Communication
+4. Financial
+5. Project
