@@ -30,4 +30,4 @@ Parameters:
 
 Returns:
 
-- array of organizationalUnits (folders)
+array of organizationalUnits (folders)
