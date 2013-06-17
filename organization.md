@@ -21,6 +21,8 @@ The organization part supports the following commands.
 | [#entry](entry)                    | get tree information for this entry            |
 
 ## Tree ##
+=======
+## Tree ##
 *Get the folder from the organization tree*
 *Requires access level: read*
 
