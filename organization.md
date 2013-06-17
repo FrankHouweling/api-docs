@@ -21,7 +21,7 @@ The organization part supports the following commands.
 | [entry](#entry)                    | get tree information for this entry            | read         |
 
 ## Tree ##
-*Get the folder from the organization tree*
+*  Get the folder from the organization tree  *
 
 Parameters:
 
@@ -33,7 +33,7 @@ Returns:
 
 
 ## Find ##
-*Find the first child matched by name*
+* Find the first child matched by name *
 
 Parameters:
 
@@ -46,14 +46,14 @@ Returns:
 
 
 ## Query ##
-*Find all descendants by name and/or uid *
+* Find all descendants by name and/or uid  *
 
 Parameters:
 
 - id => the id of the parent element
 - q => the string that will match to the entry's name or uid
-- *optional* limit
-- *optional* offset
+- * optional * limit
+- * optional * offset
 
 Returns:
 
@@ -61,7 +61,7 @@ Returns:
 
 
 ## Move ##
-*Move an entry in the tree *
+* Move an entry in the tree  *
 
 Parameters:
 
@@ -74,7 +74,7 @@ Returns:
 
 
 ## Delete ##
-*Remove an entry from the system (no way back) *
+* Remove an entry from the system (no way back)  *
 
 Parameters:
 
@@ -87,7 +87,7 @@ Returns:
 
 
 ## Alias ##
-*Create an alias from an entry *
+* Create an alias from an entry  *
 
 Parameters:
 
@@ -100,7 +100,7 @@ Returns:
 
 
 ## Group ##
-*Add an entry to a group *
+* Add an entry to a group  *
 
 Parameters:
 
@@ -113,7 +113,7 @@ Returns:
 
 
 ## Objectclass ##
-*Get information from an entry *
+* Get information from an entry  *
 
 Parameters:
 
@@ -126,7 +126,7 @@ Returns:
 
 
 ## Login ##
-*Verify login credentials *
+* Verify login credentials  *
 
 Parameters:
 
@@ -140,7 +140,7 @@ Returns:
 
 
 ## Create ##
-*Create a new entry *
+* Create a new entry  *
 
 Parameters:
 
@@ -154,7 +154,7 @@ Returns:
 
 
 ## Entry ##
-*Get tree information for this entry *
+* Get tree information for this entry  *
 
 Parameters:
 
