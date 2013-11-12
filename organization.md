@@ -19,6 +19,7 @@ The organization part supports the following commands.
 | [search](#search)                  | advanced search                                | read         |
 | [objectclasses](#objectclasses)    | see objectclass, this command returns multiple | read         |
 | [entry](#entry)                    | get tree information for this entry            | read         |
+| [wall](#wall)                      | get the wall of this entry                     | write        |
 
 ## Tree ##
 _  Get the folder from the organization tree  _
@@ -163,3 +164,30 @@ Parameters:
 Returns:
 
 - entry object
+- 
+
+
+## Wall (read) ##
+_ Get wall posts for this entry  _
+
+Parameters:
+
+- id => the id of the entry
+- _ optional _ type => the type of wallposts (default on log)
+
+Returns:
+
+- list of messages
+
+## Wall (write) ##
+_ Write a wall post from sender to recipients  _
+
+Parameters:
+
+- sender => the id of the sender entry
+- type => The type of wallpost. Most common are public, private and log.
+- recipients => array of the id's of the sender entries
+- message => The message to be send
+
+Returns:
+- the send message
