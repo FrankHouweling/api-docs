@@ -4,41 +4,117 @@ The following actions are available at the events site part.
 
 | Command                            | Description                                    | Access level |
 | :--------------------------------- |:---------------------------------------------- |:-------------|
+| events                             | Returns all events                             | write        |
+| 
 
-## Albums ##
-_  Returns the list of available photoalbums  _
+## Events ##
+_  Returns the list of all events  _
 
 Parameters:
 
-- albumId => the id of the parent photoalbum where to look for subalbums (optional)
+none
 
 Returns:
 
-- array of Photoalbums
+- array of Events
 
 ### Example Post Values ###
 
-Get all "root" photoalbums.
+Get all events.
 
 | Key                                | Value                                          |
 | :--------------------------------- |:---------------------------------------------- |
-| token                              | api token                                      |
+| entryToken                         | api token                                      |
 | part                               | site                                           |
 | command                            | model                                          |
-| model                              | photoalbum                                     |
-| action                             | albums                                         |
+| model                              | events                                         |
+| action                             | events                                         |
 
-Get all the subalbums of photoalbum with id 3.
+
+## Event ##
+_  Returns information about a specific event by it's ID  _
+
+Parameters:
+
+- id => ID of the target event
+
+Returns:
+
+- Events
+
+### Example Post Values ###
+
+Get information about event with ID 3.
 
 | Key                                | Value                                          |
 | :--------------------------------- |:---------------------------------------------- |
-| token                              | api token                                      |
+| entryToken                         | api token                                      |
 | part                               | site                                           |
 | command                            | model                                          |
-| model                              | albums                                         |
-| model                              | photoalbum                                     |
-| action                             | albums                                         |
-| albumId                            | 3                                              |
+| model                              | events                                         |
+| action                             | event                                          |
+| id                                 | 3                                              |
 
-## Pictures ##
-_  Returns a list of all pictures in a specific photoalbum  _
+## Apply ##
+_  Applies the user with the api key in entryToken for the given event _
+
+Parameters:
+
+- id => ID of the target event
+
+### Example Post Values ###
+
+Apply the current user to the event with ID 3.
+
+| Key                                | Value                                          |
+| :--------------------------------- |:---------------------------------------------- |
+| entryToken                         | api token                                      |
+| part                               | site                                           |
+| command                            | model                                          |
+| model                              | events                                         |
+| action                             | apply                                          |
+| id                                 | 3                                              |
+
+## Unapply ##
+_  Unapplies the user with the api key in entryToken for the given event _
+
+Parameters:
+
+- id => ID of the target event
+
+### Example Post Values ###
+
+Remove the current user from the event with ID 3.
+
+| Key                                | Value                                          |
+| :--------------------------------- |:---------------------------------------------- |
+| entryToken                         | api token                                      |
+| part                               | site                                           |
+| command                            | model                                          |
+| model                              | events                                         |
+| action                             | unapply                                        |
+| id                                 | 3                                              |
+
+## Applicationlist ##
+_  Get all user applications for a given event  _
+
+Parameters:
+
+- id => ID of the target event
+
+Returns:
+
+- array of OrganizationEntry's
+
+### Example Post Values ###
+
+Remove the current user from the event with ID 3.
+
+| Key                                | Value                                          |
+| :--------------------------------- |:---------------------------------------------- |
+| entryToken                         | api token                                      |
+| part                               | site                                           |
+| command                            | model                                          |
+| model                              | events                                         |
+| action                             | applicationList                                |
+| id                                 | 3                                              |
