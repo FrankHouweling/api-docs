@@ -25,7 +25,7 @@ Get all "root" photoalbums.
 
 | Key                                | Value                                          |
 | :--------------------------------- |:---------------------------------------------- |
-| token                              | api token                                      |
+| entryToken                              | api token                                      |
 | part                               | site                                           |
 | command                            | model                                          |
 | model                              | photoalbum                                     |
@@ -35,7 +35,7 @@ Get all the subalbums of photoalbum with id 3.
 
 | Key                                | Value                                          |
 | :--------------------------------- |:---------------------------------------------- |
-| token                              | api token                                      |
+| entryToken                              | api token                                      |
 | part                               | site                                           |
 | command                            | model                                          |
 | model                              | albums                                         |
@@ -60,7 +60,7 @@ Get all "root" pictures in photoalbum with id 3.
 
 | Key                                | Value                                          |
 | :--------------------------------- |:---------------------------------------------- |
-| token                              | api token                                      |
+| entryToken                              | api token                                      |
 | part                               | site                                           |
 | command                            | model                                          |
 | model                              | photoalbum                                     |
@@ -85,7 +85,7 @@ Get all "root" pictures in photoalbum with id 3.
 
 | Key                                | Value                                          |
 | :--------------------------------- |:---------------------------------------------- |
-| token                              | api token                                      |
+| entryToken                              | api token                                      |
 | part                               | site                                           |
 | command                            | model                                          |
 | model                              | photoalbum                                     |
