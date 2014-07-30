@@ -6,3 +6,4 @@ The site part supports commands based on the different available siteparts. The 
 The following siteparts now support API commands:
 
 - [Photoalbum](photoalbum.md)
+- [Events](events.md)
