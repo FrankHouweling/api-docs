@@ -97,7 +97,7 @@ Remove the current user from the event with ID 3.
 
 
 ## Drop Applications ##
-_  Unapplies the user with the api key in entryToken for the given event _
+_  Unapplies all users who are currently applied for this event; remove all applications _
 
 Parameters:
 
@@ -105,7 +105,7 @@ Parameters:
 
 ### Example Post Values ###
 
-Remove the current user from the event with ID 3.
+Remove all users from the event with ID 3.
 
 | Key                                | Value                                          |
 | :--------------------------------- |:---------------------------------------------- |
@@ -116,7 +116,7 @@ Remove the current user from the event with ID 3.
 | action                             | dropApplications                               |
 | id                                 | 3                                              |
 
-## ApplicationList ##
+## Application List ##
 _  Get all user applications for a given event  _
 
 Parameters:
