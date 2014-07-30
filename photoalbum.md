@@ -5,8 +5,8 @@ The following actions are available at the photoalbum site part.
 | Command                            | Description                                    | Access level |
 | :--------------------------------- |:---------------------------------------------- |:-------------|
 | [albums](#albums)                  | return the list of available photoalbums       | write        |
-| [find](#find)                      | find the first child matched by name           | write        |
-| [query](#query)                    | find all descendants by name and/or uid        | write        |
+| [pictures](pictures)               | get all pictures in an album                   | write        |
+| [picture](#picture)               | get the raw data of a given picture            | write        |
 
 ## Albums ##
 _  Returns the list of available photoalbums  _
